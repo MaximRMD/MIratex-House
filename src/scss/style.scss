@@ -1,19 +1,8 @@
-body {
-    background-color: black;
-    background: url("@img/9giFuAKUdg8.jpg") 0 0 no-repeat;
-    span {
-        color: aqua;
-    }
-}
-
-@media (max-width: 768px) {
-    span {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        background-color: burlywood;
-    }
-}
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./blocks/body.scss";
+@import "./blocks/container.scss";
+@import "./blocks/header.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/main-content.scss";
+@import "./blocks/wrapper.scss";

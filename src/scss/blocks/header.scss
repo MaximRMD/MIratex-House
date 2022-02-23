@@ -1,0 +1,44 @@
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header__logo-link {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: $black;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 116px;
+    min-height: 104px;
+}
+
+.header__list {
+    display: flex;
+    margin-left: 132px;
+    flex-wrap: wrap;
+}
+
+.heder__item {
+    margin-right: 21px;
+}
+
+.heder__item:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.header__link-nav {
+    color: $grey;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
