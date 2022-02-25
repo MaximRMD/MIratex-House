@@ -1,0 +1,53 @@
+.features {
+    margin-bottom: 80px;
+}
+
+.features__title {
+    text-align: center;
+}
+
+.features__heading {
+    font-size: 40px;
+    line-height: 57px;
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    max-width: 516px;
+    margin: 0 auto;
+}
+
+.features__advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-right: 38px;
+}
+
+.features__advantages:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+.features__advantages-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__advantages-heading-cart {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.features__advantages-subtitle-cart {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
