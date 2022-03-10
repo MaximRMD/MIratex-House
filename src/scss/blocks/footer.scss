@@ -1,2 +1,97 @@
 .footer {
+    background-color: $white;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    max-width: 475px;
+    margin-bottom: 10px;
+}
+
+.footer__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $grey;
+}
+
+.footer__consulting-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+.footer__button-consulting {
+    color: #fff;
+    background-color: #ff7b47;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 15px 22px 15px 22px;
+    border-radius: 5px;
+}
+
+.footer__contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.footer__contact-list {
+    margin-right: 30px;
+}
+
+.footer__contact-item {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: $white;
+}
+
+.footer__contact-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: $white;
+    margin-bottom: 20px;
+}
+
+.footer__contact-block {
+    background-color: $blue-dark;
+}
+
+.footer__contact-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contact-social-svg {
+    margin-right: 20px;
+}
+
+.footer__contact-social-svg:nth-last-of-type(1) {
+    margin-right: 0;
+}
+.footer__contact {
+    margin-bottom: 25px;
+}
+
+.footer__contact-social-text {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: $grey;
 }
