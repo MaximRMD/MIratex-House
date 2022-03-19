@@ -16,14 +16,21 @@
 .header__container {
     display: flex;
     align-items: center;
-    margin-bottom: 116px;
     min-height: 104px;
 }
 
 .header__list {
     display: flex;
-    margin-left: 132px;
+    margin-left: 122px;
     flex-wrap: wrap;
+
+    @media (min-width: 375px) {
+        margin-left: 84px;
+    }
+
+    @include tablets {
+        margin-left: 132px;
+    }
 }
 
 .heder__item {
@@ -35,10 +42,14 @@
 }
 
 .header__link-nav {
-    color: $grey;
+    color: $grey-dark;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.2px;
     text-align: center;
+
+    @include tablets {
+        font-size: 14px;
+    }
 }

@@ -8,10 +8,14 @@
 
 .methods__video {
     position: relative;
-    width: 597px;
+    width: 100%;
     padding-top: 50%;
     margin-right: 115px;
     background-color: $blue-dark;
+    margin: 0 auto;
+    @include tablets {
+        width: 597px;
+    }
 }
 .methods__video-video {
     position: absolute;
@@ -30,6 +34,10 @@
     max-width: 330px;
     margin: 0 auto 10px auto;
     text-align: center;
+
+    @include desktop {
+        text-align: start;
+    }
 }
 
 .methods__subtitle,
@@ -43,21 +51,31 @@
     max-width: 470px;
     margin: 0 auto 45px auto;
     text-align: center;
+
+    @include desktop {
+        text-align: start;
+    }
 }
 
 .methods__video-block {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center;
+    padding: 0 10px;
+
+    @include tablets {
+        padding: initial;
+    }
+
+    @include desktop {
+        flex-direction: row;
+    }
 }
 
 .methods__description {
     max-width: 333px;
-}
-
-.methods__description-title {
-    text-align: start;
-}
-.methods__description-subtitle {
-    text-align: start;
 }
 
 .methods__description-strong {
