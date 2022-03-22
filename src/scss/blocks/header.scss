@@ -48,8 +48,18 @@
     line-height: 24px;
     letter-spacing: 0.2px;
     text-align: center;
+    transition: 0.25s;
 
     @include tablets {
         font-size: 14px;
+    }
+
+    &:hover {
+        color: $orange;
+        font-size: 19px;
+    }
+
+    &:active {
+        color: $orange-dark;
     }
 }

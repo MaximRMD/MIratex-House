@@ -154,11 +154,19 @@ body {
   line-height: 24px;
   letter-spacing: 0.2px;
   text-align: center;
+  transition: 0.25s;
 }
 @media screen and (min-width: 768px) {
   .header__link-nav {
     font-size: 14px;
   }
+}
+.header__link-nav:hover {
+  color: #ff7b47;
+  font-size: 19px;
+}
+.header__link-nav:active {
+  color: #d4683e;
 }
 
 .footer {
@@ -207,6 +215,17 @@ body {
   text-align: center;
   padding: 15px 22px 15px 22px;
   border-radius: 5px;
+  transition: 0.25s;
+}
+.footer__button-consulting:hover {
+  background-color: #ff7b47;
+  color: #ffffff;
+  font-size: 15px;
+}
+.footer__button-consulting:active {
+  background-color: #d4683e;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
 .footer__contact-info {
@@ -225,11 +244,21 @@ body {
 
 .footer__contact-item {
   margin-bottom: 10px;
+}
+
+.footer__contact-link {
+  color: #ffffff;
+  transition: 0.25s;
+  letter-spacing: 0.2px;
+  line-height: 24px;
   font-weight: 600;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
+}
+.footer__contact-link:hover {
+  color: #ff7b47;
+}
+.footer__contact-link:active {
+  color: #737373;
 }
 
 .footer__contact-title {
@@ -335,6 +364,7 @@ body {
   background-color: #ff7b47;
   color: #ffffff;
   transition: 0.35s;
+  border: transparent;
 }
 .main-block__button-link:active {
   background-color: #d4683e;
@@ -756,12 +786,25 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 4px;
+  padding: 0 10px;
+  transition: 0.25s;
 }
 @media screen and (min-width: 768px) {
   .partners__form-button {
     pad: 0 22px;
   }
+}
+.partners__form-button:hover {
+  background-color: #d4683e;
+  color: #ffffff;
+  transition: 0.35s;
+  font-size: 15px;
+}
+.partners__form-button:active {
+  background-color: #d4683e;
+  transition: 0.25s;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
 .partners__form {
@@ -853,10 +896,12 @@ body {
   transition: 0.25s;
   padding: 10px 20px;
   vertical-align: -webkit-baseline-middle;
+  transition: 0.25px;
 }
 .contact__cart-button:hover {
   background-color: #ff7b47;
   color: #ffffff;
+  font-size: 15px;
 }
 .contact__cart-button:active {
   background-color: #d4683e;
@@ -945,6 +990,17 @@ body {
   text-align: center;
   padding: 15px 22px 15px 22px;
   border-radius: 5px;
+  transition: 0.25s;
+}
+.footer__button-consulting:hover {
+  background-color: #ff7b47;
+  color: #ffffff;
+  font-size: 15px;
+}
+.footer__button-consulting:active {
+  background-color: #d4683e;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
 .footer__contact-info {
@@ -963,11 +1019,21 @@ body {
 
 .footer__contact-item {
   margin-bottom: 10px;
+}
+
+.footer__contact-link {
+  color: #ffffff;
+  transition: 0.25s;
+  letter-spacing: 0.2px;
+  line-height: 24px;
   font-weight: 600;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  color: #ffffff;
+}
+.footer__contact-link:hover {
+  color: #ff7b47;
+}
+.footer__contact-link:active {
+  color: #737373;
 }
 
 .footer__contact-title {

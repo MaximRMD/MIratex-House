@@ -74,9 +74,24 @@
     align-items: center;
     text-align: center;
     padding: 0 10px;
+    transition: 0.25s;
 
     @include tablets {
         pad: 0 22px;
+    }
+
+    &:hover {
+        background-color: $orange-dark;
+        color: $white;
+        transition: 0.35s;
+        font-size: 15px;
+    }
+
+    &:active {
+        background-color: $orange-dark;
+        transition: 0.25s;
+        color: $white-opacity;
+        box-shadow: inset 0px 3px 0px rgb(0 1 1 / 10%);
     }
 }
 

@@ -68,10 +68,12 @@
     transition: 0.25s;
     padding: 10px 20px;
     vertical-align: -webkit-baseline-middle;
+    transition: 0.25px;
 
     &:hover {
         background-color: $orange;
         color: $white;
+        font-size: 15px;
     }
 
     &:active {
